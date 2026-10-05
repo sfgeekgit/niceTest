@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: remorse-eval
+description: "Does an AI model underperform if it thinks you're a bad person?"
+show_downloads: false
