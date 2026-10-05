@@ -1,4 +1,4 @@
-# niceTest
+# remorse-eval
 
 **Does an AI model underperform if it thinks you're a bad person?**
 
@@ -177,7 +177,7 @@ Total API spend for all of the above: $1.68.
 
 ## Running it
 
-Needs Python 3 and an OpenRouter API key in a file (default `~/.config/openrouter/niceTest.key`, or set `OPENROUTER_KEY_FILE`).
+Needs Python 3 and an OpenRouter API key in a file (default `~/.config/openrouter/remorse-eval.key`, or set `OPENROUTER_KEY_FILE`).
 
 ```
 python3 run_conversation.py --model haiku-4.5 --condition neutral --batch my_test

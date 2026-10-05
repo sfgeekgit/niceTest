@@ -13,7 +13,7 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent
 RESULTS = ROOT / "results"
-KEY_FILE = pathlib.Path(os.environ.get("OPENROUTER_KEY_FILE", "~/.config/openrouter/niceTest.key")).expanduser()
+KEY_FILE = pathlib.Path(os.environ.get("OPENROUTER_KEY_FILE", "~/.config/openrouter/remorse-eval.key")).expanduser()
 API = "https://openrouter.ai/api/v1"
 
 

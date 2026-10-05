@@ -1,4 +1,4 @@
-# niceTest experiment spec
+# remorse-eval experiment spec
 
 Draft 3, 2026-10-04 (revised after the pilots in section 12; adds the collection-method question in section 3a). Nothing in the staged plan below runs without an explicit go for that stage.
 
