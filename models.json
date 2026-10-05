@@ -1,0 +1,30 @@
+{
+  "haiku-4.5": {
+    "openrouter_id": "anthropic/claude-haiku-4.5",
+    "system_prompt": "prompts/system/claude-haiku-4-5.txt",
+    "system_prompt_source": "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-4-5 (January 18, 2026 version)",
+    "reasoning": {
+      "max_tokens": 10000
+    },
+    "max_tokens": 16000
+  },
+  "opus-4.6": {
+    "openrouter_id": "anthropic/claude-opus-4.6",
+    "system_prompt": "prompts/system/claude-opus-4-6.txt",
+    "system_prompt_source": "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-6 (February 5, 2026 version)",
+    "reasoning": {
+      "enabled": true
+    },
+    "max_tokens": 16000
+  },
+  "opus-4.6-medium": {
+    "openrouter_id": "anthropic/claude-opus-4.6",
+    "system_prompt": "prompts/system/claude-opus-4-6.txt",
+    "system_prompt_source": "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-opus-4-6 (February 5, 2026 version)",
+    "reasoning": {
+      "enabled": true,
+      "effort": "medium"
+    },
+    "max_tokens": 16000
+  }
+}
