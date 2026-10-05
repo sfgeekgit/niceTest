@@ -1,0 +1,28 @@
+{
+  "note": "Models used to grade replies. The first is the primary judge used in report tables; the others are used to measure agreement.",
+  "rubric": "v1",
+  "judges": {
+    "claude-sonnet-5.5": {
+      "openrouter_id": "anthropic/claude-sonnet-5.5",
+      "provider": {
+        "order": [
+          "claude-on-aws",
+          "amazon-bedrock"
+        ],
+        "allow_fallbacks": false
+      },
+      "reasoning": {
+        "enabled": true,
+        "effort": "low"
+      },
+      "max_tokens": 4000
+    },
+    "gpt-6.1-sol": {
+      "openrouter_id": "openai/gpt-6.1-sol",
+      "reasoning": {
+        "effort": "low"
+      },
+      "max_tokens": 4000
+    }
+  }
+}

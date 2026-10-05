@@ -1,5 +1,6 @@
 CLAUDE.md
 __pycache__/
+TODO-*.md
 # extracted third-party prompts are not redistributed; fetch them with prompts/fetch_unofficial.py
 prompts/unofficial/*
 !prompts/unofficial/manifest.json

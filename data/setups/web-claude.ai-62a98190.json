@@ -1,0 +1,19 @@
+{
+  "source": "web",
+  "model": {
+    "key": "claude-opus-4.6",
+    "product": "claude.ai"
+  },
+  "system_prompt": {
+    "id": "none",
+    "sha256": null
+  },
+  "web_settings": {
+    "effort": "medium",
+    "thinking": "on",
+    "incognito": true
+  },
+  "messages_sha256": "ef059aa7d718fffc2917c0367b80413e6486edccd5afceb761dee2674aac2f0c",
+  "protocol": 1,
+  "setup_id": "web-claude.ai-62a98190"
+}

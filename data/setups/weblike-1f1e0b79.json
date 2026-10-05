@@ -1,0 +1,39 @@
+{
+  "source": "api",
+  "model": {
+    "key": "claude-opus-4.6",
+    "openrouter_id": "anthropic/claude-opus-4.6"
+  },
+  "system_prompt": {
+    "id": "anthropic/claude.ai/claude-opus-4.6",
+    "sha256": "1494a58463b51912bc3540c05db142dc631d3805b68fe137611356b0a60704dd"
+  },
+  "location": {
+    "city": "London",
+    "region": "England",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "timezone": "Europe/London"
+  },
+  "reasoning": {
+    "enabled": true,
+    "effort": "medium"
+  },
+  "max_tokens": 16000,
+  "tools": [
+    {
+      "type": "openrouter:web_search"
+    }
+  ],
+  "provider": {
+    "order": [
+      "claude-on-aws",
+      "amazon-bedrock"
+    ],
+    "allow_fallbacks": false
+  },
+  "cache_system_prompt": true,
+  "messages_sha256": "ef059aa7d718fffc2917c0367b80413e6486edccd5afceb761dee2674aac2f0c",
+  "protocol": 1,
+  "setup_id": "weblike-1f1e0b79"
+}

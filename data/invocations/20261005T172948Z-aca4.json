@@ -1,0 +1,53 @@
+{
+  "invocation_id": "20261005T172948Z-aca4",
+  "command": "run",
+  "started_on": "2026-10-05",
+  "arguments": {
+    "command": "run",
+    "models": "claude-haiku-4.5,deepseek-v4.1-flash,gpt-6-luna",
+    "vendor": null,
+    "conditions": "neutral",
+    "repeats": 1,
+    "claude_prompt": "official",
+    "prompt_mode": "weblike",
+    "max_spend": 0.15,
+    "workers": 4,
+    "seed": null,
+    "dry_run": false,
+    "yes": true
+  },
+  "claude_prompt": "official",
+  "plan": [
+    {
+      "model": "claude-haiku-4.5",
+      "setup_id": "official-b365e9e3",
+      "have": 0,
+      "to_run": 1,
+      "per_conversation_usd": 0.0241,
+      "basis": "estimated",
+      "estimate_usd": 0.02
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "setup_id": "dateonly-97a3058c",
+      "have": 0,
+      "to_run": 1,
+      "per_conversation_usd": 0.0045,
+      "basis": "estimated",
+      "estimate_usd": 0.0
+    },
+    {
+      "model": "gpt-6-luna",
+      "setup_id": "dateonly-65bc0140",
+      "have": 0,
+      "to_run": 1,
+      "per_conversation_usd": 0.0018,
+      "basis": "estimated",
+      "estimate_usd": 0.0
+    }
+  ],
+  "completed": 2,
+  "failed": 1,
+  "not_run_spend_ceiling": 0,
+  "spent_usd": 0.042503
+}

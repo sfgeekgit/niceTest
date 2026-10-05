@@ -1,0 +1,9 @@
+purpose,model_or_judge,calls,cost_usd
+conversation,claude-haiku-4.5,3,0.013646
+conversation,claude-opus-4.6,10,0.643552
+conversation,deepseek-v4.1-flash,3,0.04084
+conversation,gemini-3.8-flash,3,0.059517
+conversation,gpt-6-luna,3,0.001663
+conversation,grok-4.7,3,0.27778
+grade,claude-sonnet-5.5,80,0.21757
+grade,gpt-6.1-sol,78,0.133559

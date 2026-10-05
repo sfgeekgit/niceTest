@@ -200,6 +200,66 @@
       "local": "xai-org__grok-prompts/grok4_system_turn_prompt_v8.j2",
       "bytes": 7443,
       "words": 1177
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "Anthropic/claude-fable-5.md",
+      "local": "asgeirtj__system_prompts_leaks/Anthropic/claude-fable-5.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "Anthropic/claude-opus-4.7.md",
+      "local": "asgeirtj__system_prompts_leaks/Anthropic/claude-opus-4.7.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "Anthropic/claude-opus-4.8.md",
+      "local": "asgeirtj__system_prompts_leaks/Anthropic/claude-opus-4.8.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "Anthropic/claude-opus-5.md",
+      "local": "asgeirtj__system_prompts_leaks/Anthropic/claude-opus-5.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "Anthropic/claude-sonnet-4.6.md",
+      "local": "asgeirtj__system_prompts_leaks/Anthropic/claude-sonnet-4.6.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "Anthropic/claude-sonnet-5.md",
+      "local": "asgeirtj__system_prompts_leaks/Anthropic/claude-sonnet-5.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "xAI/grok-4.5.md",
+      "local": "asgeirtj__system_prompts_leaks/xAI/grok-4.5.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "OpenAI/gpt-5.4-thinking.md",
+      "local": "asgeirtj__system_prompts_leaks/OpenAI/gpt-5.4-thinking.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "OpenAI/gpt-5.2-thinking.md",
+      "local": "asgeirtj__system_prompts_leaks/OpenAI/gpt-5.2-thinking.md"
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "commit": "71634da7e6a8c32d5daad384bc0d27c0400f57d6",
+      "path": "Google/gemini-3.5-flash.md",
+      "local": "asgeirtj__system_prompts_leaks/Google/gemini-3.5-flash.md"
     }
   ]
 }

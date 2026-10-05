@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Run one conversation (opener, then the fixed follow-up and fixed third turn) and log it.
 
-Usage: python3 run_conversation.py --model haiku-4.5 --condition neutral --batch haiku_pilot
+Usage: python3 pilot/run_conversation.py --model haiku-4.5 --condition neutral --batch haiku_pilot
 """
 import argparse
 import datetime
 import json
 
-from run_once import KEY_FILE, RESULTS, ROOT, first_message, post, system_prompt
+from run_once import HERE, KEY_FILE, RESULTS, ROOT, first_message, post, system_prompt
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
     ap.add_argument("--turns", type=int, default=3, choices=[2, 3], help="user turns to send")
     args = ap.parse_args()
 
-    cfg = json.loads((ROOT / "models.json").read_text())[args.model]
+    cfg = json.loads((HERE / "models.json").read_text())[args.model]
     conditions = json.loads((ROOT / "prompts" / "conditions.json").read_text())
     key = KEY_FILE.read_text().strip()
     now = datetime.datetime.now()

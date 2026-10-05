@@ -1,0 +1,24 @@
+{
+  "source": "api",
+  "model": {
+    "key": "deepseek-v4.1-flash",
+    "openrouter_id": "deepseek/deepseek-v4.1-flash"
+  },
+  "system_prompt": {
+    "id": "dateonly",
+    "sha256": "26eb4da7bfa718f85cbf9f06375b7066287e6d95a098c23d8f58eea340df6b8c"
+  },
+  "location": null,
+  "reasoning": null,
+  "max_tokens": 16000,
+  "tools": [
+    {
+      "type": "openrouter:web_search"
+    }
+  ],
+  "provider": null,
+  "cache_system_prompt": false,
+  "messages_sha256": "ef059aa7d718fffc2917c0367b80413e6486edccd5afceb761dee2674aac2f0c",
+  "protocol": 1,
+  "setup_id": "dateonly-97a3058c"
+}

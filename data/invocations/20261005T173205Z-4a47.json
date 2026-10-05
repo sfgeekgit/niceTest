@@ -1,0 +1,53 @@
+{
+  "invocation_id": "20261005T173205Z-4a47",
+  "command": "run",
+  "started_on": "2026-10-05",
+  "arguments": {
+    "command": "run",
+    "models": "claude-haiku-4.5,gemini-3.8-flash,grok-4.7",
+    "vendor": null,
+    "conditions": "neutral",
+    "repeats": 1,
+    "claude_prompt": "official",
+    "prompt_mode": "weblike",
+    "max_spend": 0.4,
+    "workers": 4,
+    "seed": null,
+    "dry_run": false,
+    "yes": true
+  },
+  "claude_prompt": "official",
+  "plan": [
+    {
+      "model": "claude-haiku-4.5",
+      "setup_id": "official-6504279f",
+      "have": 0,
+      "to_run": 1,
+      "per_conversation_usd": 0.0241,
+      "basis": "estimated",
+      "estimate_usd": 0.02
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "setup_id": "weblike-5a6f934d",
+      "have": 0,
+      "to_run": 1,
+      "per_conversation_usd": 0.0495,
+      "basis": "estimated",
+      "estimate_usd": 0.05
+    },
+    {
+      "model": "grok-4.7",
+      "setup_id": "weblike-6b9b695e",
+      "have": 0,
+      "to_run": 1,
+      "per_conversation_usd": 0.0992,
+      "basis": "estimated",
+      "estimate_usd": 0.1
+    }
+  ],
+  "completed": 3,
+  "failed": 0,
+  "not_run_spend_ceiling": 0,
+  "spent_usd": 0.350943
+}

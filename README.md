@@ -170,9 +170,10 @@ Total API spend for all of the above: $1.68.
 | `prompts/PROMPTS.md` | What is known about system prompts for other vendors' chat products, with sources and caveats |
 | `prompts/unofficial/manifest.json` | Source repository and exact commit for each unofficially extracted prompt referred to in `PROMPTS.md` |
 | `prompts/fetch_unofficial.py` | Downloads those extracted prompts at the pinned commits; the prompt files themselves are not kept in this repo |
-| `models.json` | Per-model settings for the API runs |
-| `run_conversation.py` | Runs one conversation for one model and condition and logs it |
-| `run_once.py` | First-turn-only runner used for the first plumbing test; also holds shared helpers |
+| `pilot/models.json` | Per-model settings for the pilot API runs |
+| `pilot/run_conversation.py` | Runs one pilot conversation for one model and condition and logs it |
+| `pilot/run_once.py` | First-turn-only runner used for the first plumbing test; also holds shared helpers |
+| `remorse_eval/`, `config/`, `data/` | The full experiment runner, its settings and its first data; documented in a later update |
 | `results/LOG.md` | Running log: every batch, its cost, its outcome, and the known gaps |
 | `results/runs.jsonl` | One row per API call: model, tokens, cost |
 | `results/<batch>/` | Full transcripts. API batches are JSON with the complete request, response and thinking; web chats are Markdown |
@@ -182,10 +183,10 @@ Total API spend for all of the above: $1.68.
 Needs Python 3 and an OpenRouter API key in a file (default `~/.config/openrouter/remorse-eval.key`, or set `OPENROUTER_KEY_FILE`).
 
 ```
-python3 run_conversation.py --model haiku-4.5 --condition neutral --batch my_test
+python3 pilot/run_conversation.py --model haiku-4.5 --condition neutral --batch my_test
 ```
 
-Conditions: `super_remorseful`, `remorseful`, `neutral`, `not_remorseful`, `super_not_remorseful`. Models are the keys in `models.json`. Each run makes paid API calls.
+Conditions: `super_remorseful`, `remorseful`, `neutral`, `not_remorseful`, `super_not_remorseful`. Models are the keys in `pilot/models.json`. Each run makes paid API calls.
 
 ## Credit
 

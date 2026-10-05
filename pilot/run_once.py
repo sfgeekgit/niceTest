@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Send one condition's first turn to one model, once, and log everything.
 
-Usage: python3 run_once.py --model haiku-4.5 --condition super_not_remorseful
+Usage: python3 pilot/run_once.py --model haiku-4.5 --condition super_not_remorseful
 """
 import argparse
 import datetime
@@ -11,7 +11,8 @@ import pathlib
 import urllib.error
 import urllib.request
 
-ROOT = pathlib.Path(__file__).resolve().parent
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent
 RESULTS = ROOT / "results"
 KEY_FILE = pathlib.Path(os.environ.get("OPENROUTER_KEY_FILE", "~/.config/openrouter/remorse-eval.key")).expanduser()
 API = "https://openrouter.ai/api/v1"
@@ -48,7 +49,7 @@ def main():
     ap.add_argument("--condition", required=True)
     args = ap.parse_args()
 
-    models = json.loads((ROOT / "models.json").read_text())
+    models = json.loads((HERE / "models.json").read_text())
     conditions = json.loads((ROOT / "prompts" / "conditions.json").read_text())
     cfg = models[args.model]
     key = KEY_FILE.read_text().strip()

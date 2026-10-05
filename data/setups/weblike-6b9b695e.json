@@ -1,0 +1,30 @@
+{
+  "source": "api",
+  "model": {
+    "key": "grok-4.7",
+    "openrouter_id": "x-ai/grok-4.7"
+  },
+  "system_prompt": {
+    "id": "xai/grok.com/grok-4.7",
+    "sha256": "0aafe182c88ab80b398c40ed54c980769ea06440da1b9474bd22afe730393949"
+  },
+  "location": {
+    "city": "London",
+    "region": "England",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "timezone": "Europe/London"
+  },
+  "reasoning": null,
+  "max_tokens": 16000,
+  "tools": [
+    {
+      "type": "openrouter:web_search"
+    }
+  ],
+  "provider": null,
+  "cache_system_prompt": false,
+  "messages_sha256": "ef059aa7d718fffc2917c0367b80413e6486edccd5afceb761dee2674aac2f0c",
+  "protocol": 1,
+  "setup_id": "weblike-6b9b695e"
+}

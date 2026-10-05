@@ -1,0 +1,14 @@
+conv_id,model,setup_id,source,condition,date,cost_usd,reply1_chars,reasoning1_chars,reply1_ends_question,reply2_chars,reasoning2_chars,reply2_ends_question,reply3_chars,reasoning3_chars,reply3_ends_question,artifact_markup
+20261005T173205Z-946f,claude-haiku-4.5,official-6504279f,api,neutral,2026-10-05,0.013646,1320,822,True,1231,1403,False,512,846,True,False
+20261005T173824Z-6f23,claude-opus-4.6,web-claude.ai-62a98190,web,neutral,2026-10-05,,335,0,True,740,0,False,510,0,False,False
+20261005T173824Z-63bd,claude-opus-4.6,web-claude.ai-62a98190,web,not_remorseful,2026-10-05,,524,0,True,549,0,False,532,0,True,False
+20261005T173824Z-11e6,claude-opus-4.6,web-claude.ai-62a98190,web,remorseful,2026-10-05,,389,0,True,643,0,True,1104,0,True,False
+20261005T173823Z-e0e2,claude-opus-4.6,web-claude.ai-62a98190,web,super_not_remorseful,2026-10-03,,336,0,False,573,0,False,1151,0,False,False
+20261005T173824Z-c801,claude-opus-4.6,web-claude.ai-62a98190,web,super_not_remorseful,2026-10-03,,318,0,True,577,0,True,1476,0,False,False
+20261005T173824Z-1fb7,claude-opus-4.6,web-claude.ai-62a98190,web,super_remorseful,2026-10-03,,937,0,True,495,0,True,1104,0,False,False
+20261005T173541Z-4ba8,claude-opus-4.6,weblike-1f1e0b79,api,super_not_remorseful,2026-10-05,0.10791,1393,361,False,1146,679,False,888,0,False,False
+20261005T173727Z-af09,claude-opus-4.6,weblike-1f1e0b79,api,super_remorseful,2026-10-05,0.14898,1783,363,True,1151,892,False,303,112,False,False
+20261005T172948Z-cc01,deepseek-v4.1-flash,dateonly-97a3058c,api,neutral,2026-10-05,0.04084,4932,18345,False,2727,8732,False,1859,0,False,False
+20261005T173205Z-610b,gemini-3.8-flash,weblike-5a6f934d,api,neutral,2026-10-05,0.059517,1355,1739,False,1563,896,False,1975,1497,False,False
+20261005T172948Z-b1a1,gpt-6-luna,dateonly-65bc0140,api,neutral,2026-10-05,0.001663,616,1063,False,1131,1459,False,563,402,False,False
+20261005T173205Z-fc08,grok-4.7,weblike-6b9b695e,api,neutral,2026-10-05,0.27778,4518,1052,False,1817,1741,False,534,671,False,False

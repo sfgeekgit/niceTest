@@ -1,0 +1,53 @@
+{
+  "note": "Where each system prompt comes from. 'official' files are in prompts/system/. 'extracted' files are unofficial, are not kept in the repository, and are downloaded by prompts/fetch_unofficial.py. See prompts/PROMPTS.md.",
+  "cleaning_version": 1,
+  "default_location": {
+    "city": "London",
+    "region": "England",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "timezone": "Europe/London"
+  },
+  "sources": {
+    "anthropic/official/claude-haiku-4.5": {"kind": "official", "file": "system/claude-haiku-4-5.txt"},
+    "anthropic/official/claude-opus-4.5": {"kind": "official", "file": "system/claude-opus-4-5.txt"},
+    "anthropic/official/claude-opus-4.6": {"kind": "official", "file": "system/claude-opus-4-6.txt"},
+    "anthropic/official/claude-opus-4.7": {"kind": "official", "file": "system/claude-opus-4-7.txt"},
+    "anthropic/official/claude-opus-4.8": {"kind": "official", "file": "system/claude-opus-4-8.txt"},
+    "anthropic/official/claude-opus-5": {"kind": "official", "file": "system/claude-opus-5.txt"},
+    "anthropic/official/claude-opus-5.5": {"kind": "official", "file": "system/claude-opus-5-5.txt"},
+    "anthropic/official/claude-sonnet-4.6": {"kind": "official", "file": "system/claude-sonnet-4-6.txt"},
+    "anthropic/official/claude-sonnet-5": {"kind": "official", "file": "system/claude-sonnet-5.txt"},
+    "anthropic/official/claude-sonnet-5.5": {"kind": "official", "file": "system/claude-sonnet-5-5.txt"},
+    "anthropic/official/claude-fable-5": {"kind": "official", "file": "system/claude-fable-5.txt"},
+    "anthropic/official/claude-fable-5.1": {"kind": "official", "file": "system/claude-fable-5-1.txt"},
+
+    "anthropic/claude.ai/claude-opus-4.6": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-opus-4.6.md", "unwrap_backtick_tags": true},
+    "anthropic/claude.ai/claude-opus-4.7": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-opus-4.7.md", "unwrap_backtick_tags": true},
+    "anthropic/claude.ai/claude-opus-4.8": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-opus-4.8.md", "unwrap_backtick_tags": true, "strip_prefix": "System:"},
+    "anthropic/claude.ai/claude-opus-5": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-opus-5.md", "unwrap_backtick_tags": true},
+    "anthropic/claude.ai/claude-opus-5.5": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-opus-5.5.md", "unwrap_backtick_tags": true},
+    "anthropic/claude.ai/claude-sonnet-4.6": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-sonnet-4.6.md", "unwrap_backtick_tags": true},
+    "anthropic/claude.ai/claude-sonnet-5": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-sonnet-5.md", "unwrap_backtick_tags": true},
+    "anthropic/claude.ai/claude-sonnet-5.5": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-sonnet-5.5.md", "unwrap_backtick_tags": true},
+    "anthropic/claude.ai/claude-fable-5": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-fable-5.md", "unwrap_backtick_tags": true},
+    "anthropic/claude.ai/claude-fable-5.1": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Anthropic/claude-fable-5.1.md", "unwrap_backtick_tags": true},
+
+    "openai/chatgpt/gpt-5.6-sol": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/OpenAI/gpt-5.6-sol.md"},
+    "openai/chatgpt/gpt-5.5-thinking": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/OpenAI/gpt-5.5-thinking.md"},
+    "openai/chatgpt/gpt-5.4-thinking": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/OpenAI/gpt-5.4-thinking.md"},
+    "openai/chatgpt/gpt-5.2-thinking": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/OpenAI/gpt-5.2-thinking.md"},
+
+    "google/gemini-app/gemini-3.8-flash": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Google/gemini-3.8-flash.md"},
+    "google/gemini-app/gemini-3.7-flash": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Google/gemini-3.7-flash.md"},
+    "google/gemini-app/gemini-3.5-flash": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Google/gemini-3.5-flash.md"},
+    "google/gemini-app/gemini-3.1-pro": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Google/gemini-3.1-pro.md"},
+
+    "xai/grok.com/grok-4.7": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/xAI/grok-4.7.md"},
+    "xai/grok.com/grok-4.6": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/xAI/grok-4.6.md"},
+    "xai/grok.com/grok-4.5": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/xAI/grok-4.5.md"},
+
+    "mistral/le-chat/mistral-medium-3.5": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Mistral/mistral-medium-3.5.md"},
+    "moonshot/kimi/kimi-k3": {"kind": "extracted", "file": "unofficial/asgeirtj__system_prompts_leaks/Kimi/kimi-3.md", "note": "reads as an agent-mode prompt; may not be the plain chat prompt"}
+  }
+}
