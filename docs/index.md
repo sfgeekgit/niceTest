@@ -16,7 +16,9 @@ As of this writing, this repo contains results of a few initial runs and initial
 
 **But this is not yet a real experiment.** We have only run small pilots, one or two conversations per condition. This is the same scale as the original post, and too small to confirm or contradict it.
 
-**What this repo is right now:** a working framework. The prompts, the scripts, the logging, a grading plan and a costed plan for a full run are all ready  for anyone who wants to run the whole thing properly. Our estimate for the widest version, 97 models, is about **$2,700**. A limited version excluding Claude and ChatGPT models (65 models) is about $230, or about $400 with grading. Details in the [full spec](https://github.com/sfgeekgit/remorse-eval/blob/main/SPEC.md).
+**What this repo is right now:** a working framework. The prompts, the scripts, the logging, a grading plan and a costed plan for a full run are all ready for anyone who wants to run the whole thing properly.
+
+**Cost to run the full experiment:** about **$2,700** for the widest version: 97 models, 100 conversations each, including grading. Leaving out the Claude and ChatGPT models brings it to about $400 for 65 models. A single model costs from a few cents to a few tens of dollars; the model the original post used, Opus 4.6, is about $24. The [full spec](https://github.com/sfgeekgit/remorse-eval/blob/main/SPEC.md) has the cost for every model.
 
 
 
